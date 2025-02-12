@@ -9,4 +9,4 @@ def Factorial(Num: int) -> int:
 # Getting number from user
 Number = input("Enter data: ")
 Number = int(Number)
-print(Factorial(Number))
+print(f"{Factorial(Number)}")
