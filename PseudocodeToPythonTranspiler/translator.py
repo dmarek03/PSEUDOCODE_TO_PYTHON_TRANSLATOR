@@ -554,7 +554,7 @@ def translate_pseudocode_to_python(input_file, output_file):
         print(f"Failed to format the file {output_file}: {e}")
 
 
-def main(input_file='test.pseudo', output_file='test.py', run_script=False):
+def main(input_file='input_6.pseudo', output_file='output_6.py', run_script=False):
     if input_file and output_file:
 
         translate_pseudocode_to_python(input_file=input_file, output_file=output_file)
