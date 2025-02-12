@@ -8,14 +8,14 @@ print("Enter operator: ")
 Operator = input("Enter data: ")
 match Operator:
     case "add":
-        print((NumA + NumB))
+        print(f"{(NumA + NumB)}")
     case "sub":
-        print((NumA - NumB))
+        print(f"{(NumA - NumB)}")
     case "mul":
-        print((NumA * NumB))
+        print(f"{(NumA * NumB)}")
     case "div":
-        print((NumA / NumB))
+        print(f"{(NumA / NumB)}")
     case "mod":
-        print((NumA % NumB))
+        print(f"{(NumA % NumB)}")
     case _:
         print("Unknown operator")
